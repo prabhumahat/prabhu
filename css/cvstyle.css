@@ -1,8 +1,8 @@
 :root{
-	--background: #c3c0ba;
-	--white: #fff;
-	--one: #c3266f;
-	--two: #743578;
+	--background: #9aa7a6;
+	--white: #fdf9f9e0;
+	--one: #0d9992;
+	--two: #010111;
 	--black: #54585d;
 	--process: #a5a5a5;
 }
@@ -17,12 +17,12 @@ body{background: var(--background);}
 .resume-main{width: 700px; height: 800px; 
 	background: linear-gradient(var(--one), var(--two));
 	margin: 50px auto;
-	box-shadow:5px 5px 5px 5px #54585d33;
+	box-shadow:5px 5px 5px 5px #54585d98;
 }
 .left-box{width: 35%; float: left; height: 700px;}
 .right-box{width: 65%; float: left; background-color: var(--white); height: 700px;
 	margin: 50px 0px; border-radius: 50px 0px 0px 50px; padding:30px 50px;
-	box-shadow: -7px 2px 15px 2px #54585d52;}
+	box-shadow: -7px 2px 15px 2px #54585d94;}
 .profile{width: 150px; height: 150px; border: 3px solid var(--white); 
 	padding: 7px; border-radius: 50%; margin: 20px auto;}
 .profile img{width: 100%; border-radius: 50%;}
@@ -50,7 +50,7 @@ body{background: var(--background);}
     border-radius: 9px;
 }
 .content-box h3{font-size: 13px;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;
-    color: white;font-weight: 500;
+    color: rgb(255, 255, 255);font-weight: 500;
 }
 .p2{font-size: 13px; margin-bottom: 5px; margin-top: 5px; color: var(--white);}
 .circle{color:var(--white); font-size: 14px!important; margin-top: 7px;}
